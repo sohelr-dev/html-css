@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <table border="5" cellpadding="6">
+            <colgroup>
+                <col style="background-color:lightblue">
+                <col>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th colspan="2">Registration Form</th>
+                </tr>
+            </thead>
+                <tr>
+                    <td>Enter Name</td>
+                    <td>
+                        <input type="text" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Password</td>
+                    <td>
+                        <input type="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Address</td>
+                    <td>
+                        <textarea name="address"  cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Game</td>
+                    <td>
+                        <input type="checkbox" name="game" id="hockey">
+                        <label for="hockey">Hockey</label>
+                        <br>
+                        <input type="checkbox" name="game" id="football">
+                        <label for="football">Football</label>
+                        <br>
+                        <input type="checkbox" name="game" id="badminton">
+                        <label for="badminton">Badminton</label>
+                        <br>
+                        <input type="checkbox" name="game" id="cricket">
+                        <label for="cricket">Cricket</label>
+                        <br>
+                        <input type="checkbox" name="game" id="volleyball">
+                        <label for="volleyball">Volleyball</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="gender" id="male" checked>
+                        <label for="male">Male</label>
+                        <br>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select your age</td>
+                    <td>
+                        <select name="age" id="age">
+                            <option value="select" hidden="hidden">Select</option>
+                            <option value="0-10">0-10</option>
+                            <option value="11-20">11-20</option>
+                            <option value="21-30">21-30</option>
+                            <option value="31-40">31-40</option>
+                            <option value="41-50">41-50</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Photo</td>
+                    <td>
+                        <input type="file" name="photo" id="photo">
+                    </td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <th colspan="2">
+                            <input type="button" value="Click Me">
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Submit Form">
+                        </th>
+                    </tr>
+                </tfoot>
+        </table>
+    </form>
+</body>
+</html>

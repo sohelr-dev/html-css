@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <h1>Registration Form</h1>
+        <label for="username">First Name :</label>
+        <input type="text" id="username" name="username" required placeholder="Enter First Name">
+        <br> <br>
+        <label for="lastname">Last Name :</label>
+        <input type="text" id="lastname" name="lastname" required placeholder="Enter Last Name">
+        <br> <br>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required placeholder="Enter Email Address">
+        <br> <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br> <br>
+        <label for="gender">Gender:</label>
+        <br> <br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" required>
+        <br> <br>
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" required>
+        <br> <br>
+        <label for="other">Other</label>
+        <input type="radio" name="gender" id="other" required>
+        <br> <br>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" required>
+        <br> <br>
+        <label for="preference">Preference:</label>
+        <br>
+        <label for="acrylic">Acrylic painting</label>
+        <input type="checkbox" name="preference" id="acrylic" required>
+        <br> <br>
+        <label for="oil">Oil painting</label>
+        <input type="checkbox" name="preference" id="oil" required>
+        <br> <br>
+        <label for="watercolor">Watercolor painting</label>
+        <input type="checkbox" name="preference" id="watercolor" required>
+        <br> <br>
+        <label for="occupation">Select Occupation</label>
+        <select name="occupation" id="occupation" required>
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="engineer">Engineer</option>
+            <option value="doctor">Doctor</option>
+            <option value="artist">Artist</option>
+        </select>
+        <br>
+        <label for="bio">Bio</label>
+        <textarea name="bio" id="bio" cols="30" rows="5" placeholder="Share few lines about yourself..."></textarea>
+        <br>
+        <input type="reset" name="reset" value="Reset">
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" style="width: 300px; margin: 0 auto">
+      <fieldset>
+        <legend>Student Registraton form</legend>
+        <label for="trainee"> Trainee ID </label>
+        <input
+          type="text"
+          id="trainee"
+          name="trainee"
+          placeholder="Trainee ID"
+        /><br /><br />
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Full Name" />
+        <br /><br />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" />
+        <br /><br />
+
+        <label for="address">Address</label><br />
+        <textarea
+          name=""
+          id="address"
+          cols="20"
+          rows="5"
+          placeholder="Ender Your Address"
+        ></textarea>
+        <br /><br />
+
+        <label for="distict">District</label>
+        <select name="district" id="district">
+          <option value="dhaka">Dhaka</option>
+          <option value="chittagong">Chittagong</option>
+          <option value="rajshahi">Rajshahi</option>
+          <option value="khulna">Khulna</option>
+          <option value="barisal">Barisal</option>
+          <option value="sylhet">Sylhet</option>
+          <option value="rangpur">Rangpur</option>
+          <option value="mymensingh">Mymensingh</option>
+        </select>
+        <br /><br />
+
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <br /><br />
+
+        <label for="degree">Degree</label>
+        <input type="checkbox" id="ssc" name="degree" value="ssc" />
+        <label for="ssc">SSC</label>
+        <input type="checkbox" id="hsc" name="degree" value="hsc" />
+        <label for="hsc">HSC</label>
+        <br /><br />
+
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Cancel" />
+      </fieldset>
+    </form>
+  </body>
+</html>
