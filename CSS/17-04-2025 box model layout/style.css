@@ -1,0 +1,37 @@
+.box3{
+    clear: left;
+    padding: 20px;
+    border: 30px solid red;
+    height: 300px;
+    width: 300px;
+    
+}
+.box4{
+    border: 16px solid green;
+    height: 350px;
+    width: 350px;
+    /*padding 4side same
+    padding: 40px; */
+
+    /*padding 4side different
+    padding-top: 40px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 10px; */
+
+    /*padding 4side different firsr vale=top,second=right,third=bottom,fourth=left
+    padding: 30px 40px 35px 25px; */
+
+    /*padding 4side different firsr vale=top,second=right,third=bottom,fourth=left
+    padding: 35px 0px 40px 5px; */
+}
+.box5{
+    height: 200px;
+    width: 200px;
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+    
+}
+

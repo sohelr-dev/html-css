@@ -1,0 +1,50 @@
+div{
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(238, 245, 244); 
+    
+}
+.bg-1{
+    background-image: linear-gradient(to right, red, yellow);
+}
+
+.bg-2{
+    background-image: radial-gradient(red, yellow);
+
+}
+
+.bg-3{
+    background-image: conic-gradient(red, yellow);
+
+}
+.bg-4{
+    background-image: url("img.jpg");
+    
+}
+.bg-5{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-6{
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.bg-7{
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: auto;
+    text-align: center;
+    padding: 80px 20px;
+}
+.bg-8{
+    background-image: linear-gradient(rgba(69, 182, 69, 0.5), rgba(189, 48, 48, 0.5), rgba(26, 15, 179, 0.5)), url("img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

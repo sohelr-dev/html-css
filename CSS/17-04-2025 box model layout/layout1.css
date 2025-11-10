@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(116, 104, 104);
+}
+div{
+    padding: 20px;
+    height: 300px;
+    width: 25%;
+    float: left;
+}
+div:nth-of-type(1){
+    background-color: aqua;
+}
+div:nth-of-type(2){
+    background-color: bisque ;
+
+}
+div:nth-of-type(3){
+    background-color: coral;
+}
+div:nth-of-type(4){
+    background-color: darkorchid;
+}
+footer{
+    height: 100px;
+    /* Clears floats from preceding elements */
+    clear: both;
+    background-color: rgb(91, 95, 231);
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+li{
+    float: left;
+    
+}
+li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}

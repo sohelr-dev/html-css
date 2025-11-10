@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+<h1>Online Course Enrollment Form</h1>
+<form action="#">
+    <label for="number">Enrollment Number</label><br>
+    <input type="number" id="number" name="number" placeholder="Enrollment Number"><br>
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" placeholder="Name"><br><br>
+    <label for="perform-batch">Perform Batch:</label>
+    <select name="perform-batch">
+        <option value="batch-66">Batch 66</option>
+        <option value="batch-67">Batch 67</option>
+        <option value="batch-68">Batch 68</option>
+        <option value="batch-69">Batch 69</option>
+        <option value="batch-70">Batch 70</option>
+    </select><br><br>
+    <label for="gender">Gender :</label>
+    <input type="radio" id="male" name="gender">
+    <label for="male"> Male</label>
+    <input type="radio" id="female" name="gender">
+    <label for="female"> Female</label><br><br>
+    <label for="qualification">Educational Qualification :</label>
+    <input type="checkbox" id="ssc" name="qualification">
+    <label for="ssc">S.S.C</label>
+    <input type="checkbox" id="hsc" name="qualification">
+    <label for="hsc">H.S.C</label><br>
+    <label for="remark"> Remarks</label><br>
+    <textarea id="remark" name="remark" rows="4" cols="20" placeholder="Remarks"></textarea><br><br>
+    <input type="submit" value="Enroll">
+    <input type="reset" value="Clear">
+</form>
+</body>
+</html>

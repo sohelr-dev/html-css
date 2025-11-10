@@ -1,0 +1,58 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 700px;
+
+}
+.box{
+    margin: 30px 40px 50px 60px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    text-align: center;
+    line-height: 100px;
+    display: inline-block;
+
+}
+.box:nth-child(1){
+    background-color: rgb(225, 80, 80);
+}
+.box:nth-child(2){
+    background-color: rgb(112, 197, 112);
+}
+.box:nth-child(3){
+    background-color: rgb(111, 111, 222);
+}
+.box:nth-child(4){
+    background-color: rgb(219, 219, 68);
+}
+.box:nth-child(5){
+    background-color: rgb(213, 162, 65);
+}
+.box:nth-child(1){
+    transform: rotate(45deg);
+    transition: transform 2s ease-in;
+}
+.box:nth-child(1):hover{
+    transform: rotate(-45deg);
+}
+.box:nth-child(1):hover::after{
+    content: "amader jinias man";
+    background-color: rgb(56, 110, 63);
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.box:nth-child(2){
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.outerbox{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+    padding: 100px;
+}

@@ -1,0 +1,65 @@
+body{
+    height: 2000px;
+    margin: 0;
+    padding: 0;
+}
+.relative{
+    width: 1000px;
+    height: 400px;
+    background-color: khaki;
+    position: relative;
+    padding-right: 20px;
+    margin: 25px auto;
+
+}
+.absolute{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: absolute;
+    padding: 30px 40px;
+
+}
+/* z-index ar value jar besi seti priority hobe */
+.a1{
+    background-color: rgb(147, 76, 76);
+    width: 150px;
+    top: 50px;
+    z-index: 3;
+}
+.a2{
+    background-image: linear-gradient(to right, red, yellow);
+    top: 100px;
+    z-index: 2;
+}
+.a3{
+    background-color: rgb(147, 76, 76);
+    width: 150px;
+    top: 50px;
+    z-index: 3;
+}
+.a4{
+    background-image: linear-gradient(to right, rgb(193, 64, 64), rgb(115, 94, 202));
+    top: 100px;
+    z-index: 4;
+}
+
+/* relative position with absolute position */
+.cart{
+    position: relative;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(to right, red, yellow);
+}
+.cart div{
+    display: inline-block;
+    padding: 8px 5px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 700;
+    position: absolute;
+    right: 3px;
+    top: 5px;
+
+}

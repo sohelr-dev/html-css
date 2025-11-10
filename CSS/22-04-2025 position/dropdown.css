@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+
+}
+.main-menu >li{
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    position: relative;
+}
+.main-menu >li:hover .sub-menu{
+    display: block;
+}
+.main-menu li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 10px;
+    background-color: khaki;
+    color: black;
+}
+.main-menu li a:hover{
+    background-color: rgb(186, 95, 95);
+}
+/* sub menu korar jonno main-menu oi khane(>) ai sign dite hobe karon sub menu te, jate li te sai kaj na kore shudu main menu te  kaj kore . orthat parenet holo mein menu and child holo sub menu */
+.sub-menu{
+    position: absolute;
+    /* display: none; */
+    /* top: calc(100% + 5px); */
+    margin-top: 5px;
+    margin-right: 10px ;
+}
+.sub-menu li{
+    list-style: none;
+    display: block;
+    font-size: 16px;
+    white-space: nowrap;
+    margin-top: 2px;
+}
+.main-menu li a{
+    width: 100%;
+}

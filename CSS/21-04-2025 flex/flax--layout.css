@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.flax-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: blue;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.flax-container:nth-child(2){
+    background-color: red;
+    flex-direction: column;
+
+    
+}
+.flax-item{
+    width: 100px;
+    height: 100px;
+    background-color: slategrey;
+    padding: 10px;
+    text-align: center;
+}
+.flax-container .flax-item:nth-child(1){
+    order: 4;
+}
+.flax-container .flax-item:nth-child(2){
+    order: 3;
+}
+.flax-container .flax-item:nth-child(3){
+    order: 5;
+}
+.flax-container .flax-item:nth-child(4){
+    order: 1;
+}
+.flax-container .flax-item:nth-child(5){
+    order: 2;
+}

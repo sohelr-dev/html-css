@@ -1,0 +1,25 @@
+.smile{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 0px 10px 0px 0px;
+}
+div{
+    border: 10px solid red;
+}
+p{
+    padding-left: 10px;
+}
+p:nth-of-type(2){
+    border: 5px solid green;
+    clear: left;
+}
+p:nth-child(5){
+    border: 5px solid green;
+    clear: left;
+}
+.smile2{
+    float: right;
+    width: 100px;
+    height: 100px;
+}

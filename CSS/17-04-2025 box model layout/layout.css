@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    background-color: #cfbdb0
+}
+nav{
+    padding: 20px;
+    background-color: gray;
+}
+div{
+    padding: 20px;
+    height: 300px;
+    width: 33.33%;
+    float: left;
+}
+div:nth-of-type(1){
+    background-color: #c4e38a;
+
+}
+div:nth-of-type(2){
+    background-color: #b5bfa2;
+    
+}
+div:nth-of-type(3){
+    background-color: #bcf15a;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
