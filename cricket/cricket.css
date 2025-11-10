@@ -1,0 +1,21 @@
+
+.bat{
+    transition: transform 0.6s ease-in;
+}
+.bat:hover{
+    transform: rotate(-70deg);
+    transform-origin: 110% 0%;
+}
+.boll{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    left: 342px;
+    transition: transform 1s ease-in .6s;
+}
+
+.field:hover .boll{
+    transform: translate(300px, -240px);
+}
